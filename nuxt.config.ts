@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     }
   },
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/beatone-nuxt/' : '',
+    baseURL: process.env.NODE_ENV === 'production' ? '/salvobeatoparrucchieri/' : '',
     head: {
       htmlAttrs: {
         lang: 'en'
