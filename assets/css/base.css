@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+img{
+  @apply object-cover rounded-xl;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+input, textarea {
+  @apply bg-transparent outline-none border-primary border focus:shadow-lg transition-all;
+}
