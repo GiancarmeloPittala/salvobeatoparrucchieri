@@ -5,6 +5,7 @@
     <section class="container mx-auto px-4 xl:px-8 pb-20 lg:pb-24 gap-20 lg:gap-24 grid">
       <HomeCover />
       <HomeDescription />
+      <HomeBlog />
       <HomeServices />
       <HomeGallery />
       <HomeFaq />

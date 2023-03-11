@@ -1,7 +1,7 @@
 <template>
   <section id="whoami" class="grid md:grid-cols-2 gap-6 md:gap-12">
     <div data-aos="fade-right" >
-      <img class=" object-cover max-h-[600px] w-full" src="https://source.unsplash.com/random?barber,1" alt="barber">
+      <img class=" object-cover max-h-[600px] w-full" src="https://source.unsplash.com/kFypE-z9dcw" alt="barber">
     </div>
     <div data-aos="fade-left" class="flex items-center justify-center text-base md:text-lg">
       <p>

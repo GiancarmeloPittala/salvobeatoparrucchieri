@@ -4,8 +4,8 @@
       <BaseIntestazione :intestazione="intestazione"  />
     </div>
     <div class="gallery">
-      <div class="gallery__column w-1/2 md:w-1/4" v-for="images,i of gallery_cols" :key="'gallery_col' + i">
-        <a data-aos="fade-bottom"  :data-aos-delay="10 * j"  v-for="image,j of images" :key="'image' + j" href="https://unsplash.com/@jeka_fe" target="_blank" class="gallery__link">
+      <div class="gallery__column w-1/2 md:w-1/4 " v-for="images,i of gallery_cols" :key="'gallery_col' + i" data-aos="fade-bottom">
+        <a data-aos="fade-bottom" v-for="image,j of images" :key="'image' + j" href="#" target="_blank" class="gallery__link rounded-xl">
           <figure class="gallery__thumb">
             <img :src="image.src" :alt="image.alt"
               class="gallery__image" :class="{ 
@@ -30,7 +30,7 @@ const intestazione = ref({
 })
 for (let i = 0; i < 16; i++) {
   images.value.push({
-    src: "https://source.unsplash.com/random?barber," + i,
+    src: "https://source.unsplash.com/collection/97229515/razors-and-shaving?" + i,
     alt: "alter " + i,
     text: "testo" + i
   })
