@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as n,s}from"./entry.1fef5874.js";const c={},r={class:"container mx-auto px-4 xl:px-8 pb-20 lg:pb-24 gap-20 lg:gap-24 grid"};function _(e,a){return t(),n("section",r,[s(e.$slots,"default")])}const l=o(c,[["render",_]]);export{l as _};
