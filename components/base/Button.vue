@@ -21,6 +21,6 @@ const color_style = ref({
   green: 'border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-gray-50',
   blue: 'border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-gray-50',
   white: 'border-gray-50 hover:bg-gray-50 hover:text-gray-900',
-  red: 'dark:border-gray-50 dark:text-gray-50 hover:dark:bg-transparent border-primary text-primary  hover:bg-primary hover:text-gray-50 dark:hover:text-secondary dark:hover:bg-gray-50',
+  red: 'dark:border-gray-50 dark:text-gray-50 hover:dark:bg-transparent border-primary text-primary  hover:bg-primary hover:text-gray-50 dark:hover:text-primary dark:hover:bg-gray-50',
 })
 </script>

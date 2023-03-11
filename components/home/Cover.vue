@@ -15,7 +15,7 @@
       <div class="mb-20 lg:my-24 lg:max-w-lg lg:pr-5">
         <p
           data-aos="fade-right"
-          class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-primary dark:text-secondary uppercase rounded-full bg-primary-200">
+          class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-primary dark:text-primary uppercase rounded-full bg-secondary">
            Top barber
         </p>
         <h1 data-aos="fade-right" data-aos-delay="100" class="mb-5 font-sans text-3xl font-bold tracking-tight  sm:text-4xl sm:leading-none">
@@ -25,7 +25,7 @@
           <span class="mt-4">
             Moda & Stile Parrucchieri a 
           </span>
-          <span class="inline-block text-primary dark:text-secondary">Paternò</span>
+          <span class="inline-block text-primary dark:text-primary">Paternò</span>
         </h1>
         <span data-aos-delay="200" data-aos="fade-right" class="block pr-5 mb-5 text-base md:text-lg">
           Benvenuti sul mio sito professionale! Sono appassionati del mio lavoro e mi impegno ogni giorno per offrire il miglior servizio possibile. 

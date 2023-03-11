@@ -18,8 +18,8 @@
         <li @click="current_link = link.text" v-for="link, i of links" :key="link.to.path" class="flex items-center gap-2">
         <span >
           <BaseLink :link="link" class="text-sm" :class="{
-            'text-primary dark:text-secondary font-bold': current_link == link.text,
-            'text-gray-400 hover:text-gray-500': current_link != link.text
+            'text-primary dark:text-primary font-bold': current_link == link.text,
+            'text-gray-400 hover:text-primary': current_link != link.text
           }">
             {{ link.text }}
           </BaseLink>
