@@ -80,16 +80,16 @@
         referrerpolicy="no-referrer-when-downgrade" frameborder="0" title="map" marginheight="0" marginwidth="0"
         scrolling="no"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.2964359144808!2d14.904309915311824!3d37.57163677979705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x131150e308e22149%3A0x70d90b827bee300e!2sVia%20G.%20Boccaccio%2C%20104C%2C%2095047%20Patern%C3%B2%20CT!5e0!3m2!1sit!2sit!4v1678464925351!5m2!1sit!2sit"></iframe>
-      <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+      <div class="bg-white dark:bg-primary relative flex flex-wrap py-6 rounded-xl shadow-md">
         <div class="lg:w-1/2 px-6">
-          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">Informazioni</h2>
+          <h2 class="title-font font-semibold tracking-widest">Informazioni</h2>
           <p class="mt-1">Via Giovanni Boccaccio, 104/C - 95047 Paternò (CT)</p>
           <p class="mt-1">P.I. 04921890879</p>
         </div>
         <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
-          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+          <h2 class="title-font font-semibold tracking-widest">EMAIL</h2>
           <a href="mailto:salvobeato@hotmail.it">salvobeato@hotmail.it</a>
-          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">Telefono</h2>
+          <h2 class="title-font font-semibold tracking-widest mt-4">Telefono</h2>
           <a href="tel:+39 340 5996490">+39 340 5996490</a>
         </div>
       </div>
