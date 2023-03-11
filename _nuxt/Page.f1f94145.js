@@ -1,0 +1,1 @@
+import{_ as o,o as n,c as t,s}from"./entry.582a6413.js";const c={},r={class:"container overflow-x-hidden mx-auto px-4 xl:px-8 pb-20 lg:pb-24 gap-20 lg:gap-24 grid"};function _(e,a){return n(),t("section",r,[s(e.$slots,"default")])}const p=o(c,[["render",_]]);export{p as _};
