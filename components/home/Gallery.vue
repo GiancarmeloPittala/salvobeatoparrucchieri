@@ -5,7 +5,7 @@
     </div>
     <div class="gallery">
       <div class="gallery__column w-1/2 md:w-1/4 " v-for="images,i of gallery_cols" :key="'gallery_col' + i" data-aos="fade-bottom">
-        <a data-aos="fade-bottom" v-for="image,j of images" :key="'image' + j" href="#" target="_blank" class="gallery__link rounded-xl">
+        <NuxtLink data-aos="fade-bottom" v-for="image,j of images" :key="'image' + j" to="/"  class="gallery__link rounded-xl">
           <figure class="gallery__thumb">
             <img :src="image.src" :alt="image.alt"
               class="gallery__image" :class="{ 
@@ -13,7 +13,7 @@
                 'h-[350px] md:h-[500px]': (j + i % 2 !== 0 ) }">
             <figcaption class="gallery__caption" v-text="image.text"></figcaption>
           </figure>
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </section>
