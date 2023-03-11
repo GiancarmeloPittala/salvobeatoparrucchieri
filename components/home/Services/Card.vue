@@ -1,7 +1,7 @@
 <template>
   <div
     class="relative flex flex-col  space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 border border-white bg-white" :class="{'md:flex-row': !reverse, 'md:flex-row-reverse': reverse}">
-    <div class="w-full md:w-1/3 bg-white grid place-items-center" :class="{'pl-5': reverse, 'pr-5': !reverse}">
+    <div class="w-full md:w-1/3 bg-white grid place-items-center" :class="{'pl-5': reverse, 'md:pr-5': !reverse}">
       <img :src="service.img.src" :alt="service.img.alt" class="rounded-xl h-full w-full max-h-[300px] object-cover" />
     </div>
     <div class="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3" :class="{'lg:text-right': reverse}">

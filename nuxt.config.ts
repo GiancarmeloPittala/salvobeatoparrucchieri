@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     baseURL: process.env.NODE_ENV === 'production' ? '/salvobeatoparrucchieri/' : '',
     head: {
       htmlAttrs: {
-        lang: 'en'
+        lang: 'it'
       },
       charset: 'UTF-8',
       viewport: 'width=device-width, initial-scale=1.0',
@@ -85,11 +85,11 @@ export default defineNuxtConfig({
         icon: 'openmoji:flag-italy'
       },
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'it',
     lazy: true,
     langDir: 'lang',
     vueI18n: {
-      fallbackLocale: 'en',
+      fallbackLocale: 'it',
     },
     detectBrowserLanguage: {
       useCookie: true,
